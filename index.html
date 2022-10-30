@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effects</title>
+    <script defer src="./main.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: #34495e;
+        }
+        main{ 
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+        #eyes, #eyes img{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img id="anchor" src="./af13a7aeb442443c7b2b1a430395c6a9.png" alt="" width="600">
+        <div id="eyes">
+            <img src="./eye.png" class="eye" style="top: 22px; right: 10px;">
+            <img src="./eye.png" class="eye" style="top: 32px; right: 77px;">
+            <img src="./eye.png" class="eye" style="bottom: 90px; left: 110px;">
+            <img src="./eye.png" class="eye" style="bottom: 92px; left: 54px;">
+        </div>
+    </main>
+</body>
+</html>
